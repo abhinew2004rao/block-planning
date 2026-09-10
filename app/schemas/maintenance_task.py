@@ -35,6 +35,10 @@ class MaintenanceTaskCreate(MaintenanceTaskBase):
     pass
 
 
+class TaskStatusUpdate(SchemaModel):
+    status: TaskStatus
+
+
 class MaintenanceTaskRead(MaintenanceTaskBase, TimestampRead):
     model_config = ConfigDict(from_attributes=True, str_strip_whitespace=True)
     task_id: int = Field(gt=0)

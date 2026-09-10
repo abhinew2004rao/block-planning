@@ -21,5 +21,9 @@ htmlcov/
 .vscode/
 *.csv
 !data/sample/*.csv
+!data/raw/*.csv
 exports/
 alembic/versions/__pycache__/
+node_modules/
+frontend/dist/
+frontend/node_modules/

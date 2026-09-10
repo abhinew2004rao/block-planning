@@ -47,6 +47,10 @@ class BlockCreate(BlockBase):
     pass
 
 
+class BlockStatusUpdate(SchemaModel):
+    status: BlockStatus
+
+
 class BlockRead(BlockBase, TimestampRead):
     model_config = ConfigDict(from_attributes=True, str_strip_whitespace=True)
     block_id: int = Field(gt=0)

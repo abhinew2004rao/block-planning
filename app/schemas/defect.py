@@ -25,6 +25,10 @@ class DefectCreate(DefectBase):
     pass
 
 
+class DefectStatusUpdate(SchemaModel):
+    status: DefectStatus
+
+
 class DefectRead(DefectBase, TimestampRead):
     model_config = ConfigDict(from_attributes=True, str_strip_whitespace=True)
     defect_id: int = Field(gt=0)

@@ -1,0 +1,201 @@
+defect_id,asset_id,department,defect_type,defect_severity,detected_date,detected_by,status,recommended_action,estimated_work_duration_min,max_allowed_delay_days,source_system,source_defect_id,created_at,updated_at
+1,69,TRD,mast_foundation_tilt,major,2026-08-07,OMMS footplate,deferred,Attend mast foundation tilt on ALD-MZP km 681.588-682.568,180,10,CRIS-CMS,ALD-MZP-0001,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+2,35,TRD,auto_tension_failure,critical,2026-08-10,SSE/P.Way/PRYJ,open,Attend auto tension failure on PYRJ-ALD km 0.079-1.512,180,4,USFD,PYRJ-ALD-0002,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+3,93,P.Way,gauge_slack,major,2026-08-12,JE/P.Way/MZP,open,Attend gauge slack on ALD-MZP km 654.934-658.202,75,10,TRC,ALD-MZP-0003,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+4,73,S&T,LC_boom_sticking,major,2026-09-09,SSE/P.Way/PRYJ,acknowledged,Attend LC boom sticking on PYRJ-MIU km 12.512-12.553,80,8,USFD,PYRJ-MIU-0004,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+5,24,TRD,OHE_snap,critical,2026-08-25,JE/TRD/ALD,open,Attend OHE snap on ALD-MZP km 646.229-648.175,225,3,USFD,ALD-MZP-0005,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+6,42,P.Way,weed_growth,observational,2026-08-17,SSE/S&T/PRYJ,open,Attend weed growth on ALD-MZP km 654.996-658.227,60,47,TMS,ALD-MZP-0006,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+7,61,P.Way,rail_fracture,critical,2026-08-07,SSE/P.Way/PRYJ,open,Attend rail fracture on PYRJ-MIU km 78.439-80.952,195,3,TMS,PYRJ-MIU-0007,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+8,100,TRD,mast_foundation_tilt,major,2026-09-08,OMMS footplate,open,Attend mast foundation tilt on PYRJ-MIU km 14.943-15.577,165,8,CRIS-CMS,PYRJ-MIU-0008,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+9,3,TRD,jumper_hotspot,minor,2026-09-01,JE/P.Way/MZP,acknowledged,Attend jumper hotspot on ALD-MZP km 678.506-680.635,45,24,TMS,ALD-MZP-0009,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+10,73,S&T,track_circuit_failure,critical,2026-08-12,TRC recording,open,Attend track circuit failure on PYRJ-MIU km 12.512-12.553,90,4,CRIS-CMS,PYRJ-MIU-0010,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+11,78,TRD,jumper_hotspot,minor,2026-09-03,OMMS footplate,in_progress,Attend jumper hotspot on ALD-MZP km 681.064-681.817,45,23,TMS,ALD-MZP-0011,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+12,75,S&T,signal_blank,critical,2026-08-22,USFD team/PRYJ,in_progress,Attend signal blank on ALD-MZP km 663.030-663.054,120,5,CRIS-CMS,ALD-MZP-0012,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+13,10,TRD,jumper_hotspot,minor,2026-08-01,JE/P.Way/MZP,acknowledged,Attend jumper hotspot on PYRJ-MIU km 5.937-6.979,30,23,TRC,PYRJ-MIU-0013,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+14,16,S&T,EI_alarm,observational,2026-08-05,OMMS footplate,acknowledged,Attend EI alarm on PYRJ-MIU km 68.237-68.238,15,47,TRC,PYRJ-MIU-0014,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+15,55,P.Way,weed_growth,observational,2026-09-06,USFD team/PRYJ,acknowledged,Attend weed growth on PYRJ-MIU km 70.691-75.153,45,45,USFD,PYRJ-MIU-0015,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+16,63,P.Way,weld_failure,critical,2026-08-14,SSE/S&T/PRYJ,open,Attend weld failure on ALD-MZP km 675.314-676.369,180,3,USFD,ALD-MZP-0016,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+17,23,P.Way,ballast_deficiency,minor,2026-08-02,OMMS footplate,open,Attend ballast deficiency on PYRJ-ALD km 11.252-11.541,75,24,USFD,PYRJ-ALD-0017,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+18,94,P.Way,ballast_deficiency,minor,2026-08-21,OMMS footplate,acknowledged,Attend ballast deficiency on PYRJ-MIU km 36.669-40.936,45,21,FOIS-OMMS,PYRJ-MIU-0018,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+19,58,S&T,track_circuit_failure,critical,2026-08-12,USFD team/PRYJ,acknowledged,Attend track circuit failure on PYRJ-MIU km 20.569-20.585,105,4,TMS,PYRJ-MIU-0019,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+20,64,S&T,EI_alarm,observational,2026-08-21,JE/P.Way/MZP,acknowledged,Attend EI alarm on PYRJ-MIU km 38.129-38.198,60,46,FOIS-OMMS,PYRJ-MIU-0020,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+21,34,S&T,axle_counter_reset,major,2026-08-24,USFD team/PRYJ,deferred,Attend axle counter reset on PYRJ-MIU km 55.579-55.607,75,7,TRC,PYRJ-MIU-0021,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+22,25,TRD,OHE_snap,critical,2026-08-26,TRC recording,open,Attend OHE snap on PYRJ-MIU km 87.486-89.599,240,5,TRC,PYRJ-MIU-0022,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+23,98,P.Way,scabbing,major,2026-08-11,TRC recording,open,Attend scabbing on PYRJ-ALD km 2.927-6.515,90,10,TMS,PYRJ-ALD-0023,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+24,12,P.Way,ballast_deficiency,minor,2026-08-27,JE/TRD/ALD,deferred,Attend ballast deficiency on ALD-MZP km 693.782-698.449,45,23,TRC,ALD-MZP-0024,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+25,48,S&T,cable_fault,major,2026-08-06,USFD team/PRYJ,acknowledged,Attend cable fault on ALD-MZP km 698.894-698.931,135,10,TRC,ALD-MZP-0025,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+26,43,P.Way,weed_growth,observational,2026-08-12,SSE/S&T/PRYJ,open,Attend weed growth on PYRJ-MIU km 67.186-69.534,45,47,CRIS-CMS,PYRJ-MIU-0026,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+27,16,S&T,LC_boom_sticking,major,2026-08-29,SSE/S&T/PRYJ,open,Attend LC boom sticking on PYRJ-MIU km 68.237-68.238,35,8,CRIS-CMS,PYRJ-MIU-0027,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+28,28,P.Way,P&C_wear,minor,2026-08-24,TRC recording,deferred,Attend P&C wear on PYRJ-MIU km 14.852-19.408,65,21,CRIS-CMS,PYRJ-MIU-0028,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+29,38,S&T,track_circuit_failure,critical,2026-08-18,JE/P.Way/MZP,acknowledged,Attend track circuit failure on PYRJ-ALD km 6.008-6.031,90,2,TRC,PYRJ-ALD-0029,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+30,17,S&T,axle_counter_reset,major,2026-09-08,SSE/P.Way/PRYJ,deferred,Attend axle counter reset on PYRJ-ALD km 6.196-6.218,75,8,USFD,PYRJ-ALD-0030,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+31,14,S&T,EI_alarm,observational,2026-09-10,USFD team/PRYJ,open,Attend EI alarm on PYRJ-ALD km 9.484-9.545,45,48,USFD,PYRJ-ALD-0031,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+32,57,S&T,axle_counter_reset,major,2026-08-30,SSE/P.Way/PRYJ,acknowledged,Attend axle counter reset on ALD-MZP km 686.057-686.102,75,10,TMS,ALD-MZP-0032,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+33,9,P.Way,sleeper_decay,major,2026-08-10,SSE/P.Way/PRYJ,open,Attend sleeper decay on ALD-MZP km 640.014-640.917,60,8,CRIS-CMS,ALD-MZP-0033,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+34,73,S&T,axle_counter_reset,major,2026-09-05,JE/P.Way/MZP,acknowledged,Attend axle counter reset on PYRJ-MIU km 12.512-12.553,45,10,TRC,PYRJ-MIU-0034,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+35,77,P.Way,scabbing,major,2026-08-08,JE/TRD/ALD,open,Attend scabbing on PYRJ-ALD km 6.523-9.156,90,10,FOIS-OMMS,PYRJ-ALD-0035,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+36,76,TRD,auto_tension_failure,critical,2026-08-22,USFD team/PRYJ,in_progress,Attend auto tension failure on PYRJ-MIU km 56.762-58.465,135,2,CRIS-CMS,PYRJ-MIU-0036,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+37,81,S&T,track_circuit_failure,critical,2026-08-25,TRC recording,acknowledged,Attend track circuit failure on ALD-MZP km 655.196-655.213,60,3,CRIS-CMS,ALD-MZP-0037,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+38,23,P.Way,weld_failure,critical,2026-08-31,SSE/P.Way/PRYJ,open,Attend weld failure on PYRJ-ALD km 11.252-11.541,180,5,TRC,PYRJ-ALD-0038,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+39,61,P.Way,ballast_deficiency,minor,2026-09-08,JE/P.Way/MZP,open,Attend ballast deficiency on PYRJ-MIU km 78.439-80.952,60,23,USFD,PYRJ-MIU-0039,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+40,10,TRD,mast_foundation_tilt,major,2026-08-27,SSE/S&T/PRYJ,open,Attend mast foundation tilt on PYRJ-MIU km 5.937-6.979,180,10,TMS,PYRJ-MIU-0040,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+41,70,P.Way,scabbing,major,2026-09-01,SSE/S&T/PRYJ,acknowledged,Attend scabbing on PYRJ-MIU km 85.652-87.956,60,7,TMS,PYRJ-MIU-0041,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+42,22,P.Way,ballast_deficiency,minor,2026-08-03,TRC recording,open,Attend ballast deficiency on PYRJ-MIU km 53.950-58.375,60,24,TMS,PYRJ-MIU-0042,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+43,60,S&T,LC_boom_sticking,major,2026-08-22,TRC recording,acknowledged,Attend LC boom sticking on ALD-MZP km 631.123-631.149,80,9,TRC,ALD-MZP-0043,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+44,70,P.Way,P&C_wear,minor,2026-08-13,SSE/P.Way/PRYJ,open,Attend P&C wear on PYRJ-MIU km 85.652-87.956,35,24,FOIS-OMMS,PYRJ-MIU-0044,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+45,78,TRD,insulator_flashover,major,2026-09-09,SSE/P.Way/PRYJ,open,Attend insulator flashover on ALD-MZP km 681.064-681.817,75,7,FOIS-OMMS,ALD-MZP-0045,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+46,74,TRD,OHE_snap,critical,2026-08-30,JE/TRD/ALD,acknowledged,Attend OHE snap on PYRJ-ALD km 9.039-11.159,240,4,CRIS-CMS,PYRJ-ALD-0046,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+47,75,S&T,cable_fault,major,2026-08-01,OMMS footplate,acknowledged,Attend cable fault on ALD-MZP km 663.030-663.054,150,7,USFD,ALD-MZP-0047,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+48,45,P.Way,sleeper_decay,major,2026-08-20,SSE/S&T/PRYJ,open,Attend sleeper decay on ALD-MZP km 654.211-656.263,60,8,FOIS-OMMS,ALD-MZP-0048,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+49,53,P.Way,P&C_wear,minor,2026-08-23,TRC recording,open,Attend P&C wear on PYRJ-ALD km 7.420-11.598,80,21,USFD,PYRJ-ALD-0049,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+50,12,P.Way,weed_growth,observational,2026-08-25,SSE/S&T/PRYJ,acknowledged,Attend weed growth on ALD-MZP km 693.782-698.449,15,48,TRC,ALD-MZP-0050,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+51,1,S&T,LC_boom_sticking,major,2026-08-07,JE/TRD/ALD,acknowledged,Attend LC boom sticking on PYRJ-MIU km 89.088-89.106,80,7,CRIS-CMS,PYRJ-MIU-0051,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+52,67,TRD,insulator_flashover,major,2026-08-02,OMMS footplate,open,Attend insulator flashover on PYRJ-MIU km 87.135-88.413,105,10,TMS,PYRJ-MIU-0052,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+53,27,TRD,insulator_flashover,major,2026-08-06,JE/P.Way/MZP,open,Attend insulator flashover on ALD-MZP km 637.323-639.172,90,10,USFD,ALD-MZP-0053,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+54,16,S&T,signal_blank,critical,2026-08-01,USFD team/PRYJ,acknowledged,Attend signal blank on PYRJ-MIU km 68.237-68.238,90,3,FOIS-OMMS,PYRJ-MIU-0054,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+55,71,P.Way,rail_fracture,critical,2026-08-06,JE/TRD/ALD,deferred,Attend rail fracture on PYRJ-ALD km 7.552-7.794,165,3,TMS,PYRJ-ALD-0055,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+56,60,S&T,signal_blank,critical,2026-09-01,JE/TRD/ALD,in_progress,Attend signal blank on ALD-MZP km 631.123-631.149,105,4,USFD,ALD-MZP-0056,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+57,62,P.Way,P&C_wear,minor,2026-08-26,JE/TRD/ALD,open,Attend P&C wear on PYRJ-ALD km 6.063-6.524,50,24,CRIS-CMS,PYRJ-ALD-0057,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+58,77,P.Way,gauge_slack,major,2026-09-06,SSE/S&T/PRYJ,acknowledged,Attend gauge slack on PYRJ-ALD km 6.523-9.156,120,9,TRC,PYRJ-ALD-0058,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+59,35,TRD,dropper_missing,observational,2026-09-10,SSE/S&T/PRYJ,open,Attend dropper missing on PYRJ-ALD km 0.079-1.512,45,48,CRIS-CMS,PYRJ-ALD-0059,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+60,58,S&T,aspect_dim,minor,2026-08-11,SSE/S&T/PRYJ,open,Attend aspect dim on PYRJ-MIU km 20.569-20.585,55,24,USFD,PYRJ-MIU-0060,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+61,42,P.Way,scabbing,major,2026-08-26,USFD team/PRYJ,acknowledged,Attend scabbing on ALD-MZP km 654.996-658.227,90,8,USFD,ALD-MZP-0061,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+62,6,S&T,axle_counter_reset,major,2026-08-11,TRC recording,in_progress,Attend axle counter reset on ALD-MZP km 659.822-659.894,90,10,CRIS-CMS,ALD-MZP-0062,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+63,64,S&T,signal_blank,critical,2026-09-02,USFD team/PRYJ,closed,Attend signal blank on PYRJ-MIU km 38.129-38.198,105,2,USFD,PYRJ-MIU-0063,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+64,13,S&T,aspect_dim,minor,2026-08-12,SSE/P.Way/PRYJ,in_progress,Attend aspect dim on PYRJ-MIU km 10.819-10.874,40,24,CRIS-CMS,PYRJ-MIU-0064,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+65,10,TRD,auto_tension_failure,critical,2026-08-25,SSE/S&T/PRYJ,deferred,Attend auto tension failure on PYRJ-MIU km 5.937-6.979,180,2,FOIS-OMMS,PYRJ-MIU-0065,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+66,87,S&T,EI_alarm,observational,2026-08-07,JE/TRD/ALD,open,Attend EI alarm on ALD-MZP km 685.016-685.052,45,48,TRC,ALD-MZP-0066,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+67,5,S&T,aspect_dim,minor,2026-09-06,JE/P.Way/MZP,in_progress,Attend aspect dim on PYRJ-ALD km 9.230-9.274,55,22,TMS,PYRJ-ALD-0067,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+68,56,P.Way,weld_failure,critical,2026-08-01,TRC recording,deferred,Attend weld failure on PYRJ-ALD km 9.816-11.962,135,5,CRIS-CMS,PYRJ-ALD-0068,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+69,89,P.Way,ballast_deficiency,minor,2026-09-09,SSE/P.Way/PRYJ,closed,Attend ballast deficiency on PYRJ-ALD km 4.388-8.746,60,21,FOIS-OMMS,PYRJ-ALD-0069,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+70,46,S&T,axle_counter_reset,major,2026-08-14,JE/P.Way/MZP,deferred,Attend axle counter reset on PYRJ-MIU km 18.103-18.113,60,10,TRC,PYRJ-MIU-0070,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+71,88,TRD,dropper_missing,observational,2026-08-30,JE/P.Way/MZP,open,Attend dropper missing on PYRJ-MIU km 7.105-7.178,30,45,TRC,PYRJ-MIU-0071,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+72,49,P.Way,scabbing,major,2026-08-10,USFD team/PRYJ,in_progress,Attend scabbing on PYRJ-MIU km 79.469-81.708,60,8,USFD,PYRJ-MIU-0072,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+73,82,P.Way,ballast_deficiency,minor,2026-08-12,SSE/S&T/PRYJ,open,Attend ballast deficiency on PYRJ-MIU km 24.124-27.241,30,24,FOIS-OMMS,PYRJ-MIU-0073,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+74,87,S&T,aspect_dim,minor,2026-08-31,SSE/P.Way/PRYJ,open,Attend aspect dim on ALD-MZP km 685.016-685.052,70,23,TRC,ALD-MZP-0074,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+75,39,TRD,mast_foundation_tilt,major,2026-08-14,TRC recording,acknowledged,Attend mast foundation tilt on ALD-MZP km 703.608-703.969,195,10,FOIS-OMMS,ALD-MZP-0075,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+76,26,S&T,cable_fault,major,2026-08-11,SSE/P.Way/PRYJ,acknowledged,Attend cable fault on PYRJ-ALD km 10.071-10.130,120,10,TRC,PYRJ-ALD-0076,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+77,46,S&T,aspect_dim,minor,2026-08-23,TRC recording,in_progress,Attend aspect dim on PYRJ-MIU km 18.103-18.113,55,21,USFD,PYRJ-MIU-0077,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+78,36,S&T,signal_blank,critical,2026-08-05,OMMS footplate,closed,Attend signal blank on ALD-MZP km 645.819-645.870,75,5,FOIS-OMMS,ALD-MZP-0078,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+79,100,TRD,dropper_missing,observational,2026-08-27,USFD team/PRYJ,open,Attend dropper missing on PYRJ-MIU km 14.943-15.577,45,46,CRIS-CMS,PYRJ-MIU-0079,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+80,80,TRD,insulator_flashover,major,2026-09-02,TRC recording,in_progress,Attend insulator flashover on PYRJ-ALD km 3.009-4.360,60,7,FOIS-OMMS,PYRJ-ALD-0080,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+81,57,S&T,signal_blank,critical,2026-08-04,SSE/S&T/PRYJ,open,Attend signal blank on ALD-MZP km 686.057-686.102,90,2,FOIS-OMMS,ALD-MZP-0081,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+82,42,P.Way,sleeper_decay,major,2026-08-30,JE/P.Way/MZP,open,Attend sleeper decay on ALD-MZP km 654.996-658.227,75,9,TRC,ALD-MZP-0082,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+83,65,TRD,insulator_flashover,major,2026-08-31,SSE/S&T/PRYJ,in_progress,Attend insulator flashover on PYRJ-ALD km 6.998-7.627,105,9,FOIS-OMMS,PYRJ-ALD-0083,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+84,15,TRD,auto_tension_failure,critical,2026-09-06,JE/P.Way/MZP,open,Attend auto tension failure on ALD-MZP km 662.624-662.936,150,5,TRC,ALD-MZP-0084,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+85,47,S&T,signal_blank,critical,2026-08-16,SSE/P.Way/PRYJ,closed,Attend signal blank on PYRJ-ALD km 5.216-5.252,105,2,USFD,PYRJ-ALD-0085,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+86,48,S&T,LC_boom_sticking,major,2026-08-25,USFD team/PRYJ,in_progress,Attend LC boom sticking on ALD-MZP km 698.894-698.931,80,9,TMS,ALD-MZP-0086,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+87,87,S&T,track_circuit_failure,critical,2026-08-11,SSE/P.Way/PRYJ,closed,Attend track circuit failure on ALD-MZP km 685.016-685.052,90,3,TMS,ALD-MZP-0087,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+88,82,P.Way,P&C_wear,minor,2026-08-22,TRC recording,in_progress,Attend P&C wear on PYRJ-MIU km 24.124-27.241,80,21,CRIS-CMS,PYRJ-MIU-0088,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+89,6,S&T,signal_blank,critical,2026-08-22,JE/TRD/ALD,in_progress,Attend signal blank on ALD-MZP km 659.822-659.894,75,2,CRIS-CMS,ALD-MZP-0089,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+90,69,TRD,contact_wire_wear,major,2026-08-17,JE/TRD/ALD,open,Attend contact wire wear on ALD-MZP km 681.588-682.568,105,10,TRC,ALD-MZP-0090,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+91,96,P.Way,gauge_slack,major,2026-08-15,TRC recording,open,Attend gauge slack on ALD-MZP km 703.215-707.392,75,10,TRC,ALD-MZP-0091,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+92,53,P.Way,ballast_deficiency,minor,2026-09-08,TRC recording,open,Attend ballast deficiency on PYRJ-ALD km 7.420-11.598,60,22,USFD,PYRJ-ALD-0092,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+93,57,S&T,track_circuit_failure,critical,2026-08-18,SSE/P.Way/PRYJ,open,Attend track circuit failure on ALD-MZP km 686.057-686.102,90,4,TMS,ALD-MZP-0093,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+94,51,TRD,insulator_flashover,major,2026-08-29,SSE/P.Way/PRYJ,open,Attend insulator flashover on ALD-MZP km 704.748-706.762,105,7,CRIS-CMS,ALD-MZP-0094,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+95,83,P.Way,rail_fracture,critical,2026-09-07,OMMS footplate,open,Attend rail fracture on PYRJ-ALD km 10.030-11.386,195,3,CRIS-CMS,PYRJ-ALD-0095,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+96,73,S&T,track_circuit_failure,critical,2026-09-06,OMMS footplate,acknowledged,Attend track circuit failure on PYRJ-MIU km 12.512-12.553,75,3,CRIS-CMS,PYRJ-MIU-0096,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+97,43,P.Way,gauge_slack,major,2026-08-03,SSE/P.Way/PRYJ,open,Attend gauge slack on PYRJ-MIU km 67.186-69.534,105,8,CRIS-CMS,PYRJ-MIU-0097,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+98,70,P.Way,ballast_deficiency,minor,2026-08-30,SSE/P.Way/PRYJ,acknowledged,Attend ballast deficiency on PYRJ-MIU km 85.652-87.956,30,22,TMS,PYRJ-MIU-0098,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+99,46,S&T,EI_alarm,observational,2026-08-26,USFD team/PRYJ,in_progress,Attend EI alarm on PYRJ-MIU km 18.103-18.113,45,45,CRIS-CMS,PYRJ-MIU-0099,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+100,34,S&T,signal_blank,critical,2026-09-02,TRC recording,open,Attend signal blank on PYRJ-MIU km 55.579-55.607,120,2,TMS,PYRJ-MIU-0100,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+101,61,P.Way,P&C_wear,minor,2026-08-18,USFD team/PRYJ,acknowledged,Attend P&C wear on PYRJ-MIU km 78.439-80.952,35,24,TRC,PYRJ-MIU-0101,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+102,29,TRD,jumper_hotspot,minor,2026-09-08,TRC recording,open,Attend jumper hotspot on PYRJ-ALD km 4.358-6.458,60,24,TMS,PYRJ-ALD-0102,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+103,8,TRD,auto_tension_failure,critical,2026-08-16,JE/TRD/ALD,acknowledged,Attend auto tension failure on PYRJ-ALD km 0.572-0.835,135,5,USFD,PYRJ-ALD-0103,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+104,10,TRD,OHE_snap,critical,2026-08-21,USFD team/PRYJ,acknowledged,Attend OHE snap on PYRJ-MIU km 5.937-6.979,210,2,CRIS-CMS,PYRJ-MIU-0104,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+105,36,S&T,aspect_dim,minor,2026-08-01,USFD team/PRYJ,acknowledged,Attend aspect dim on ALD-MZP km 645.819-645.870,55,24,TRC,ALD-MZP-0105,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+106,68,S&T,axle_counter_reset,major,2026-08-12,USFD team/PRYJ,open,Attend axle counter reset on PYRJ-ALD km 3.879-3.933,90,7,TMS,PYRJ-ALD-0106,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+107,84,TRD,mast_foundation_tilt,major,2026-08-06,TRC recording,in_progress,Attend mast foundation tilt on ALD-MZP km 661.726-661.993,180,10,USFD,ALD-MZP-0107,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+108,30,P.Way,sleeper_decay,major,2026-08-20,OMMS footplate,open,Attend sleeper decay on ALD-MZP km 685.742-690.215,105,10,USFD,ALD-MZP-0108,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+109,94,P.Way,weld_failure,critical,2026-08-21,JE/TRD/ALD,acknowledged,Attend weld failure on PYRJ-MIU km 36.669-40.936,165,4,FOIS-OMMS,PYRJ-MIU-0109,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+110,20,P.Way,P&C_wear,minor,2026-09-06,SSE/P.Way/PRYJ,in_progress,Attend P&C wear on PYRJ-ALD km 4.220-5.335,35,21,USFD,PYRJ-ALD-0110,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+111,13,S&T,LC_boom_sticking,major,2026-08-18,OMMS footplate,acknowledged,Attend LC boom sticking on PYRJ-MIU km 10.819-10.874,50,7,TRC,PYRJ-MIU-0111,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+112,72,TRD,jumper_hotspot,minor,2026-08-20,TRC recording,open,Attend jumper hotspot on ALD-MZP km 632.851-635.241,30,24,FOIS-OMMS,ALD-MZP-0112,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+113,86,P.Way,sleeper_decay,major,2026-09-07,SSE/S&T/PRYJ,in_progress,Attend sleeper decay on PYRJ-ALD km 2.428-5.559,90,9,TMS,PYRJ-ALD-0113,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+114,74,TRD,jumper_hotspot,minor,2026-08-28,JE/P.Way/MZP,in_progress,Attend jumper hotspot on PYRJ-ALD km 9.039-11.159,75,22,TMS,PYRJ-ALD-0114,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+115,45,P.Way,weed_growth,observational,2026-09-03,OMMS footplate,open,Attend weed growth on ALD-MZP km 654.211-656.263,45,46,USFD,ALD-MZP-0115,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+116,72,TRD,dropper_missing,observational,2026-08-02,USFD team/PRYJ,acknowledged,Attend dropper missing on ALD-MZP km 632.851-635.241,15,47,TMS,ALD-MZP-0116,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+117,24,TRD,insulator_flashover,major,2026-08-22,SSE/S&T/PRYJ,closed,Attend insulator flashover on ALD-MZP km 646.229-648.175,90,7,CRIS-CMS,ALD-MZP-0117,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+118,19,TRD,jumper_hotspot,minor,2026-08-16,SSE/P.Way/PRYJ,open,Attend jumper hotspot on PYRJ-MIU km 59.901-60.652,45,21,TMS,PYRJ-MIU-0118,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+119,96,P.Way,scabbing,major,2026-08-17,JE/TRD/ALD,open,Attend scabbing on ALD-MZP km 703.215-707.392,90,9,CRIS-CMS,ALD-MZP-0119,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+120,48,S&T,axle_counter_reset,major,2026-08-21,OMMS footplate,in_progress,Attend axle counter reset on ALD-MZP km 698.894-698.931,45,7,CRIS-CMS,ALD-MZP-0120,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+121,21,P.Way,rail_fracture,critical,2026-09-05,SSE/S&T/PRYJ,in_progress,Attend rail fracture on ALD-MZP km 688.954-691.636,210,5,USFD,ALD-MZP-0121,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+122,78,TRD,auto_tension_failure,critical,2026-08-15,SSE/S&T/PRYJ,open,Attend auto tension failure on ALD-MZP km 681.064-681.817,150,2,FOIS-OMMS,ALD-MZP-0122,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+123,56,P.Way,weld_failure,critical,2026-08-23,TRC recording,acknowledged,Attend weld failure on PYRJ-ALD km 9.816-11.962,180,4,TMS,PYRJ-ALD-0123,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+124,29,TRD,auto_tension_failure,critical,2026-08-03,SSE/P.Way/PRYJ,open,Attend auto tension failure on PYRJ-ALD km 4.358-6.458,135,3,FOIS-OMMS,PYRJ-ALD-0124,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+125,28,P.Way,gauge_slack,major,2026-08-25,SSE/S&T/PRYJ,open,Attend gauge slack on PYRJ-MIU km 14.852-19.408,105,7,TMS,PYRJ-MIU-0125,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+126,64,S&T,LC_boom_sticking,major,2026-08-14,JE/P.Way/MZP,open,Attend LC boom sticking on PYRJ-MIU km 38.129-38.198,50,10,TRC,PYRJ-MIU-0126,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+127,91,TRD,contact_wire_wear,major,2026-08-09,USFD team/PRYJ,open,Attend contact wire wear on PYRJ-MIU km 29.023-29.372,105,7,USFD,PYRJ-MIU-0127,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+128,95,P.Way,rail_fracture,critical,2026-08-14,SSE/P.Way/PRYJ,in_progress,Attend rail fracture on PYRJ-ALD km 8.103-11.750,210,2,FOIS-OMMS,PYRJ-ALD-0128,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+129,74,TRD,auto_tension_failure,critical,2026-08-05,JE/TRD/ALD,acknowledged,Attend auto tension failure on PYRJ-ALD km 9.039-11.159,180,4,TMS,PYRJ-ALD-0129,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+130,52,S&T,signal_blank,critical,2026-08-21,JE/P.Way/MZP,open,Attend signal blank on PYRJ-MIU km 45.886-45.900,120,4,TMS,PYRJ-MIU-0130,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+131,56,P.Way,weld_failure,critical,2026-08-26,JE/TRD/ALD,open,Attend weld failure on PYRJ-ALD km 9.816-11.962,180,2,USFD,PYRJ-ALD-0131,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+132,40,P.Way,weed_growth,observational,2026-08-27,SSE/S&T/PRYJ,closed,Attend weed growth on PYRJ-MIU km 22.271-25.121,30,45,TRC,PYRJ-MIU-0132,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+133,82,P.Way,weld_failure,critical,2026-08-08,USFD team/PRYJ,acknowledged,Attend weld failure on PYRJ-MIU km 24.124-27.241,150,4,FOIS-OMMS,PYRJ-MIU-0133,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+134,94,P.Way,gauge_slack,major,2026-08-26,SSE/P.Way/PRYJ,deferred,Attend gauge slack on PYRJ-MIU km 36.669-40.936,90,9,CRIS-CMS,PYRJ-MIU-0134,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+135,23,P.Way,gauge_slack,major,2026-09-06,JE/P.Way/MZP,open,Attend gauge slack on PYRJ-ALD km 11.252-11.541,120,10,TRC,PYRJ-ALD-0135,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+136,98,P.Way,P&C_wear,minor,2026-08-05,TRC recording,open,Attend P&C wear on PYRJ-ALD km 2.927-6.515,65,23,CRIS-CMS,PYRJ-ALD-0136,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+137,57,S&T,signal_blank,critical,2026-08-11,JE/TRD/ALD,acknowledged,Attend signal blank on ALD-MZP km 686.057-686.102,105,4,TRC,ALD-MZP-0137,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+138,8,TRD,insulator_flashover,major,2026-08-09,SSE/P.Way/PRYJ,open,Attend insulator flashover on PYRJ-ALD km 0.572-0.835,90,10,USFD,PYRJ-ALD-0138,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+139,5,S&T,signal_blank,critical,2026-08-18,OMMS footplate,acknowledged,Attend signal blank on PYRJ-ALD km 9.230-9.274,105,2,TMS,PYRJ-ALD-0139,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+140,79,TRD,jumper_hotspot,minor,2026-08-09,JE/TRD/ALD,open,Attend jumper hotspot on PYRJ-MIU km 83.480-84.152,75,21,USFD,PYRJ-MIU-0140,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+141,74,TRD,mast_foundation_tilt,major,2026-08-29,SSE/S&T/PRYJ,acknowledged,Attend mast foundation tilt on PYRJ-ALD km 9.039-11.159,210,8,TMS,PYRJ-ALD-0141,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+142,58,S&T,signal_blank,critical,2026-08-20,TRC recording,open,Attend signal blank on PYRJ-MIU km 20.569-20.585,75,3,TMS,PYRJ-MIU-0142,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+143,32,S&T,LC_boom_sticking,major,2026-08-13,JE/TRD/ALD,open,Attend LC boom sticking on PYRJ-ALD km 5.410-5.462,50,9,FOIS-OMMS,PYRJ-ALD-0143,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+144,37,TRD,auto_tension_failure,critical,2026-08-15,OMMS footplate,in_progress,Attend auto tension failure on PYRJ-MIU km 6.549-8.619,165,2,FOIS-OMMS,PYRJ-MIU-0144,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+145,9,P.Way,weed_growth,observational,2026-09-04,USFD team/PRYJ,deferred,Attend weed growth on ALD-MZP km 640.014-640.917,60,47,FOIS-OMMS,ALD-MZP-0145,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+146,93,P.Way,gauge_slack,major,2026-08-20,SSE/P.Way/PRYJ,deferred,Attend gauge slack on ALD-MZP km 654.934-658.202,90,9,FOIS-OMMS,ALD-MZP-0146,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+147,84,TRD,mast_foundation_tilt,major,2026-08-16,JE/P.Way/MZP,acknowledged,Attend mast foundation tilt on ALD-MZP km 661.726-661.993,165,9,TRC,ALD-MZP-0147,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+148,49,P.Way,weed_growth,observational,2026-09-02,TRC recording,acknowledged,Attend weed growth on PYRJ-MIU km 79.469-81.708,15,48,TRC,PYRJ-MIU-0148,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+149,47,S&T,signal_blank,critical,2026-08-18,SSE/S&T/PRYJ,open,Attend signal blank on PYRJ-ALD km 5.216-5.252,90,3,FOIS-OMMS,PYRJ-ALD-0149,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+150,99,P.Way,P&C_wear,minor,2026-08-29,JE/P.Way/MZP,deferred,Attend P&C wear on ALD-MZP km 694.708-698.598,50,22,TMS,ALD-MZP-0150,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+151,38,S&T,EI_alarm,observational,2026-09-04,USFD team/PRYJ,acknowledged,Attend EI alarm on PYRJ-ALD km 6.008-6.031,15,47,TRC,PYRJ-ALD-0151,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+152,17,S&T,aspect_dim,minor,2026-08-17,JE/P.Way/MZP,open,Attend aspect dim on PYRJ-ALD km 6.196-6.218,40,22,TRC,PYRJ-ALD-0152,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+153,22,P.Way,P&C_wear,minor,2026-09-08,JE/TRD/ALD,in_progress,Attend P&C wear on PYRJ-MIU km 53.950-58.375,65,22,USFD,PYRJ-MIU-0153,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+154,79,TRD,insulator_flashover,major,2026-08-13,JE/P.Way/MZP,open,Attend insulator flashover on PYRJ-MIU km 83.480-84.152,75,9,USFD,PYRJ-MIU-0154,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+155,25,TRD,insulator_flashover,major,2026-08-05,JE/TRD/ALD,open,Attend insulator flashover on PYRJ-MIU km 87.486-89.599,105,9,USFD,PYRJ-MIU-0155,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+156,65,TRD,jumper_hotspot,minor,2026-08-15,JE/P.Way/MZP,open,Attend jumper hotspot on PYRJ-ALD km 6.998-7.627,45,22,FOIS-OMMS,PYRJ-ALD-0156,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+157,7,P.Way,P&C_wear,minor,2026-08-18,USFD team/PRYJ,in_progress,Attend P&C wear on PYRJ-MIU km 12.410-17.198,35,21,FOIS-OMMS,PYRJ-MIU-0157,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+158,11,TRD,dropper_missing,observational,2026-08-31,SSE/S&T/PRYJ,acknowledged,Attend dropper missing on PYRJ-ALD km 5.125-6.575,60,46,USFD,PYRJ-ALD-0158,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+159,12,P.Way,scabbing,major,2026-08-13,SSE/S&T/PRYJ,deferred,Attend scabbing on ALD-MZP km 693.782-698.449,45,10,TMS,ALD-MZP-0159,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+160,51,TRD,jumper_hotspot,minor,2026-08-18,JE/P.Way/MZP,deferred,Attend jumper hotspot on ALD-MZP km 704.748-706.762,75,21,FOIS-OMMS,ALD-MZP-0160,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+161,29,TRD,OHE_snap,critical,2026-08-21,SSE/P.Way/PRYJ,in_progress,Attend OHE snap on PYRJ-ALD km 4.358-6.458,225,3,CRIS-CMS,PYRJ-ALD-0161,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+162,5,S&T,axle_counter_reset,major,2026-08-11,TRC recording,deferred,Attend axle counter reset on PYRJ-ALD km 9.230-9.274,60,10,USFD,PYRJ-ALD-0162,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+163,79,TRD,OHE_snap,critical,2026-09-05,SSE/P.Way/PRYJ,open,Attend OHE snap on PYRJ-MIU km 83.480-84.152,225,3,CRIS-CMS,PYRJ-MIU-0163,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+164,71,P.Way,sleeper_decay,major,2026-09-03,OMMS footplate,open,Attend sleeper decay on PYRJ-ALD km 7.552-7.794,90,8,FOIS-OMMS,PYRJ-ALD-0164,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+165,16,S&T,signal_blank,critical,2026-08-26,JE/TRD/ALD,acknowledged,Attend signal blank on PYRJ-MIU km 68.237-68.238,120,2,TMS,PYRJ-MIU-0165,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+166,64,S&T,aspect_dim,minor,2026-08-07,SSE/P.Way/PRYJ,in_progress,Attend aspect dim on PYRJ-MIU km 38.129-38.198,40,22,FOIS-OMMS,PYRJ-MIU-0166,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+167,55,P.Way,rail_fracture,critical,2026-08-02,SSE/S&T/PRYJ,closed,Attend rail fracture on PYRJ-MIU km 70.691-75.153,180,5,CRIS-CMS,PYRJ-MIU-0167,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+168,86,P.Way,weld_failure,critical,2026-08-08,SSE/S&T/PRYJ,closed,Attend weld failure on PYRJ-ALD km 2.428-5.559,135,2,USFD,PYRJ-ALD-0168,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+169,61,P.Way,rail_fracture,critical,2026-08-01,JE/TRD/ALD,open,Attend rail fracture on PYRJ-MIU km 78.439-80.952,195,4,TMS,PYRJ-MIU-0169,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+170,46,S&T,EI_alarm,observational,2026-09-06,SSE/S&T/PRYJ,in_progress,Attend EI alarm on PYRJ-MIU km 18.103-18.113,30,45,TRC,PYRJ-MIU-0170,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+171,95,P.Way,weed_growth,observational,2026-09-02,SSE/P.Way/PRYJ,open,Attend weed growth on PYRJ-ALD km 8.103-11.750,45,47,CRIS-CMS,PYRJ-ALD-0171,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+172,100,TRD,mast_foundation_tilt,major,2026-08-12,TRC recording,open,Attend mast foundation tilt on PYRJ-MIU km 14.943-15.577,210,8,CRIS-CMS,PYRJ-MIU-0172,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+173,9,P.Way,P&C_wear,minor,2026-09-08,SSE/S&T/PRYJ,open,Attend P&C wear on ALD-MZP km 640.014-640.917,50,21,CRIS-CMS,ALD-MZP-0173,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+174,6,S&T,axle_counter_reset,major,2026-08-22,USFD team/PRYJ,open,Attend axle counter reset on ALD-MZP km 659.822-659.894,90,10,FOIS-OMMS,ALD-MZP-0174,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+175,5,S&T,EI_alarm,observational,2026-08-29,SSE/S&T/PRYJ,deferred,Attend EI alarm on PYRJ-ALD km 9.230-9.274,45,45,FOIS-OMMS,PYRJ-ALD-0175,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+176,35,TRD,OHE_snap,critical,2026-08-18,JE/TRD/ALD,acknowledged,Attend OHE snap on PYRJ-ALD km 0.079-1.512,240,5,USFD,PYRJ-ALD-0176,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+177,44,S&T,track_circuit_failure,critical,2026-08-10,TRC recording,deferred,Attend track circuit failure on PYRJ-ALD km 7.979-8.031,105,4,TRC,PYRJ-ALD-0177,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+178,35,TRD,dropper_missing,observational,2026-09-05,TRC recording,deferred,Attend dropper missing on PYRJ-ALD km 0.079-1.512,60,45,USFD,PYRJ-ALD-0178,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+179,78,TRD,dropper_missing,observational,2026-08-30,USFD team/PRYJ,acknowledged,Attend dropper missing on ALD-MZP km 681.064-681.817,45,47,TMS,ALD-MZP-0179,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+180,11,TRD,insulator_flashover,major,2026-08-23,SSE/S&T/PRYJ,in_progress,Attend insulator flashover on PYRJ-ALD km 5.125-6.575,105,10,CRIS-CMS,PYRJ-ALD-0180,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+181,89,P.Way,P&C_wear,minor,2026-08-19,JE/TRD/ALD,closed,Attend P&C wear on PYRJ-ALD km 4.388-8.746,35,23,TRC,PYRJ-ALD-0181,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+182,56,P.Way,ballast_deficiency,minor,2026-08-01,OMMS footplate,deferred,Attend ballast deficiency on PYRJ-ALD km 9.816-11.962,30,21,USFD,PYRJ-ALD-0182,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+183,47,S&T,aspect_dim,minor,2026-08-31,SSE/P.Way/PRYJ,open,Attend aspect dim on PYRJ-ALD km 5.216-5.252,40,24,TMS,PYRJ-ALD-0183,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+184,17,S&T,signal_blank,critical,2026-08-26,OMMS footplate,open,Attend signal blank on PYRJ-ALD km 6.196-6.218,105,4,USFD,PYRJ-ALD-0184,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+185,73,S&T,signal_blank,critical,2026-08-03,JE/P.Way/MZP,open,Attend signal blank on PYRJ-MIU km 12.512-12.553,120,4,FOIS-OMMS,PYRJ-MIU-0185,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+186,57,S&T,EI_alarm,observational,2026-09-06,USFD team/PRYJ,acknowledged,Attend EI alarm on ALD-MZP km 686.057-686.102,30,47,USFD,ALD-MZP-0186,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+187,41,P.Way,ballast_deficiency,minor,2026-08-26,SSE/P.Way/PRYJ,open,Attend ballast deficiency on PYRJ-ALD km 1.616-5.530,30,22,USFD,PYRJ-ALD-0187,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+188,67,TRD,auto_tension_failure,critical,2026-08-06,SSE/P.Way/PRYJ,in_progress,Attend auto tension failure on PYRJ-MIU km 87.135-88.413,165,4,USFD,PYRJ-MIU-0188,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+189,28,P.Way,ballast_deficiency,minor,2026-08-10,JE/P.Way/MZP,open,Attend ballast deficiency on PYRJ-MIU km 14.852-19.408,30,22,TMS,PYRJ-MIU-0189,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+190,58,S&T,track_circuit_failure,critical,2026-08-13,SSE/P.Way/PRYJ,open,Attend track circuit failure on PYRJ-MIU km 20.569-20.585,90,4,TMS,PYRJ-MIU-0190,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+191,71,P.Way,ballast_deficiency,minor,2026-08-22,OMMS footplate,open,Attend ballast deficiency on PYRJ-ALD km 7.552-7.794,45,22,FOIS-OMMS,PYRJ-ALD-0191,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+192,66,P.Way,scabbing,major,2026-09-03,JE/P.Way/MZP,open,Attend scabbing on ALD-MZP km 680.690-681.267,60,8,USFD,ALD-MZP-0192,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+193,4,P.Way,weed_growth,observational,2026-08-06,USFD team/PRYJ,open,Attend weed growth on PYRJ-MIU km 22.956-24.375,45,48,TRC,PYRJ-MIU-0193,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+194,17,S&T,aspect_dim,minor,2026-09-05,SSE/P.Way/PRYJ,acknowledged,Attend aspect dim on PYRJ-ALD km 6.196-6.218,55,24,USFD,PYRJ-ALD-0194,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+195,68,S&T,cable_fault,major,2026-08-15,OMMS footplate,open,Attend cable fault on PYRJ-ALD km 3.879-3.933,105,8,FOIS-OMMS,PYRJ-ALD-0195,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+196,83,P.Way,weld_failure,critical,2026-08-13,JE/TRD/ALD,open,Attend weld failure on PYRJ-ALD km 10.030-11.386,165,3,TRC,PYRJ-ALD-0196,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+197,82,P.Way,gauge_slack,major,2026-09-02,JE/TRD/ALD,acknowledged,Attend gauge slack on PYRJ-MIU km 24.124-27.241,75,7,TRC,PYRJ-MIU-0197,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+198,20,P.Way,ballast_deficiency,minor,2026-08-31,JE/P.Way/MZP,open,Attend ballast deficiency on PYRJ-ALD km 4.220-5.335,60,22,FOIS-OMMS,PYRJ-ALD-0198,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+199,67,TRD,insulator_flashover,major,2026-09-05,SSE/S&T/PRYJ,acknowledged,Attend insulator flashover on PYRJ-MIU km 87.135-88.413,75,9,CRIS-CMS,PYRJ-MIU-0199,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
+200,81,S&T,axle_counter_reset,major,2026-08-02,USFD team/PRYJ,open,Attend axle counter reset on ALD-MZP km 655.196-655.213,45,8,TRC,ALD-MZP-0200,2026-09-10T08:16:21+00:00,2026-09-10T08:16:21+00:00
