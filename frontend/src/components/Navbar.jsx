@@ -205,17 +205,29 @@ export default function Navbar({ toggleSidebar, onDrawerToggle }) {
         {/* Right Side: Health Status + Notifications + Profile */}
         <Box sx={{ display: 'flex', alignItems: 'center', gap: { xs: 0.5, sm: 1.5 } }}>
           {/* Backend API Connection Chip */}
-          <Tooltip title="Click to recheck FastAPI backend connection status">
+          <Tooltip
+            title={
+              backendStatus === 'online'
+                ? 'FastAPI backend is healthy and database is connected. Click to recheck.'
+                : backendStatus === 'degraded'
+                ? 'FastAPI backend is connected (database is initializing or disconnected). Click to recheck.'
+                : 'FastAPI backend is offline. Click to recheck.'
+            }
+          >
             <Chip
               icon={
                 backendStatus === 'online' ? (
                   <CheckCircleIcon sx={{ fontSize: 16, color: '#2a9d8f !important' }} />
+                ) : backendStatus === 'degraded' ? (
+                  <CheckCircleIcon sx={{ fontSize: 16, color: '#e9c46a !important' }} />
                 ) : (
                   <ErrorOutlinedIcon sx={{ fontSize: 16, color: '#e76f51 !important' }} />
                 )
               }
               label={
                 backendStatus === 'online'
+                  ? 'API: Healthy'
+                  : backendStatus === 'degraded'
                   ? 'API: Connected'
                   : backendStatus === 'checking'
                   ? 'Connecting...'
