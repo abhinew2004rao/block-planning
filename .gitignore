@@ -7,6 +7,8 @@ __pycache__/
 venv/
 env/
 .env
+.env.*
+!.env.example
 *.egg-info/
 .eggs/
 dist/
@@ -27,3 +29,4 @@ alembic/versions/__pycache__/
 node_modules/
 frontend/dist/
 frontend/node_modules/
+.vercel/
