@@ -7,9 +7,29 @@ export const TASKS = '/tasks';
 export const BLOCKS = '/blocks';
 export const OPTIMIZATION = '/optimization';
 
+/**
+ * Resolves and normalizes the backend API base URL.
+ * Automatically handles:
+ *  - "https://example.onrender.com" -> "https://example.onrender.com/api/v1"
+ *  - "https://example.onrender.com/" -> "https://example.onrender.com/api/v1" (no double slashes)
+ *  - "https://example.onrender.com/api/v1" -> "https://example.onrender.com/api/v1"
+ *  - "https://example.onrender.com/api/v1/" -> "https://example.onrender.com/api/v1"
+ *  - Default fallback: "http://localhost:8000/api/v1"
+ */
+export const getApiBaseUrl = (rawUrl = import.meta.env?.VITE_API_URL) => {
+  const url = (rawUrl || 'http://localhost:8000').trim().replace(/\/+$/, '');
+  if (url.endsWith('/api/v1')) {
+    return url;
+  }
+  if (url.endsWith('/api')) {
+    return `${url}/v1`;
+  }
+  return `${url}/api/v1`;
+};
+
 // Axios instance configuration
 const api = axios.create({
-  baseURL: import.meta.env?.VITE_API_URL || 'http://localhost:8000/api/v1',
+  baseURL: getApiBaseUrl(),
   headers: {
     'Content-Type': 'application/json',
   },
