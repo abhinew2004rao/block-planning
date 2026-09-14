@@ -189,10 +189,24 @@ def test_defects_crud_and_status_update(client: TestClient, sample_asset: Asset)
     assert resp_get.status_code == 200
     assert resp_get.json()["defect_id"] == defect_id
 
-    # 3. List defects
+    # 3. List defects (ordered desc by default, with X-Total-Count header)
     resp_list = client.get("/api/v1/defects?skip=0&limit=10")
     assert resp_list.status_code == 200
     assert len(resp_list.json()) >= 1
+    assert "X-Total-Count" in resp_list.headers
+    assert int(resp_list.headers["X-Total-Count"]) >= 1
+    # Newly created defect should appear first in default descending order
+    assert resp_list.json()[0]["defect_id"] == defect_id
+
+    # 3b. Test defect statistics endpoint
+    resp_stats = client.get("/api/v1/defects/stats")
+    assert resp_stats.status_code == 200
+    stats = resp_stats.json()
+    assert "total" in stats
+    assert "critical" in stats
+    assert "open" in stats
+    assert "closed" in stats
+    assert stats["total"] >= 1
 
     # 4. Update defect
     update_data = {**new_defect_data, "recommended_action": "Replace fuse and relay"}

@@ -67,7 +67,7 @@ const SEVERITY_COLOR_MAP = {
   },
 };
 
-const INITIAL_DEFECT_FORM = {
+const getInitialDefectForm = () => ({
   asset_id: 1,
   department: 'P.Way',
   defect_type: 'Rail Surface Flaw / Micro-crack',
@@ -79,14 +79,14 @@ const INITIAL_DEFECT_FORM = {
   estimated_work_duration_min: 90,
   max_allowed_delay_days: 2,
   source_system: 'TMS',
-  source_defect_id: `DEF-TMS-${Math.floor(1000 + Math.random() * 9000)}`,
-};
+  source_defect_id: `DEF-TMS-${Date.now()}-${Math.floor(100 + Math.random() * 900)}`,
+});
 
 /**
  * Defects Page Component for Indian Railways Block Planning System
  *
  * Requirements:
- * - Fetch defects from GET /defects?skip=0&limit=100
+ * - Fetch defects from GET /defects?skip=0&limit=1000&order=desc
  * - Display in DataGrid
  * - Columns:
  *   * defect_id
@@ -119,7 +119,7 @@ export default function Defects() {
 
   // Create Defect Dialog State
   const [openDialog, setOpenDialog] = useState(false);
-  const [formData, setFormData] = useState(INITIAL_DEFECT_FORM);
+  const [formData, setFormData] = useState(getInitialDefectForm);
   const [createLoading, setCreateLoading] = useState(false);
   const [dialogError, setDialogError] = useState(null);
 
@@ -128,7 +128,7 @@ export default function Defects() {
     setLoading(true);
     setError(null);
     try {
-      const res = await api.get(`${DEFECTS}?skip=0&limit=100`);
+      const res = await api.get(`${DEFECTS}?skip=0&limit=1000&order=desc`);
       setDefects(Array.isArray(res.data) ? res.data : []);
     } catch (err) {
       console.error('Failed to fetch defects:', err);
@@ -159,6 +159,14 @@ export default function Defects() {
       setDialogError('A valid positive Asset ID is required.');
       return;
     }
+    if (Number(formData.estimated_work_duration_min) <= 0) {
+      setDialogError('Estimated duration must be greater than 0 minutes.');
+      return;
+    }
+    if (Number(formData.max_allowed_delay_days) < 0) {
+      setDialogError('Max allowed delay cannot be negative.');
+      return;
+    }
 
     setCreateLoading(true);
     try {
@@ -169,10 +177,20 @@ export default function Defects() {
         max_allowed_delay_days: Number(formData.max_allowed_delay_days),
       };
       const res = await api.post(DEFECTS, payload);
-      const newId = res.data?.defect_id ? `#DEF-${res.data.defect_id}` : '';
+      const newDefect = res.data;
+      const newId = newDefect?.defect_id ? `#DEF-${newDefect.defect_id}` : '';
+
+      // Immediately prepend newly created defect to state so it appears in table & counts
+      if (newDefect && newDefect.defect_id) {
+        setDefects((prev) => {
+          if (prev.some((d) => d.defect_id === newDefect.defect_id)) return prev;
+          return [newDefect, ...prev];
+        });
+      }
+
       setSuccessMsg(`Defect ${newId} logged successfully and queued for block planning.`);
       setOpenDialog(false);
-      setFormData(INITIAL_DEFECT_FORM);
+      setFormData(getInitialDefectForm());
       await fetchDefects();
     } catch (err) {
       console.error('Create defect failed:', err);
@@ -459,6 +477,7 @@ export default function Defects() {
             startIcon={<AddIcon />}
             onClick={() => {
               setDialogError(null);
+              setFormData(getInitialDefectForm());
               setOpenDialog(true);
             }}
             sx={{
@@ -759,6 +778,9 @@ export default function Defects() {
             initialState={{
               pagination: {
                 paginationModel: { pageSize: 100, page: 0 },
+              },
+              sorting: {
+                sortModel: [{ field: 'defect_id', sort: 'desc' }],
               },
             }}
             pageSizeOptions={[25, 50, 100]}

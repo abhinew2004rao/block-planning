@@ -105,17 +105,32 @@ export const assetService = {
  * Fetch paginated defects list.
  *
  * @param {number} [skip=0] - Number of records to skip
- * @param {number} [limit=100] - Maximum records to return
+ * @param {number} [limit=1000] - Maximum records to return
+ * @param {string} [order='desc'] - Sort order ('desc' or 'asc')
  * @returns {Promise<Array>} List of defects
  */
-export const getDefects = async (skip = 0, limit = 100) => {
+export const getDefects = async (skip = 0, limit = 1000, order = 'desc') => {
   try {
     const response = await api.get(DEFECTS, {
-      params: { skip, limit },
+      params: { skip, limit, order },
     });
     return response.data;
   } catch (error) {
     return handleError(error, 'Failed to fetch defects');
+  }
+};
+
+/**
+ * Fetch aggregated defect counts and severity statistics.
+ *
+ * @returns {Promise<Object>} Summary statistics { total, critical, open, closed }
+ */
+export const getDefectStats = async () => {
+  try {
+    const response = await api.get(`${DEFECTS}/stats`);
+    return response.data;
+  } catch (error) {
+    return handleError(error, 'Failed to fetch defect statistics');
   }
 };
 
@@ -166,6 +181,7 @@ export const deleteDefect = async (id) => {
 
 export const defectService = {
   getDefects,
+  getDefectStats,
   getDefectById,
   createDefect,
   deleteDefect,
